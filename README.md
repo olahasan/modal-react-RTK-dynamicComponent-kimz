@@ -68,8 +68,8 @@ Otherwise, all links will open in the same tab.
 the main thing is how to Switch between components by Dynamic Component instead of  If/Else . 
 Send Custom props to Modal from Redux, and Configure Payload to Hold Object. Send props to children by redux.
 
-```  old way: If/Else
-
+1- old way - If/Else
+```  
   const componentHandler = () => {
      if (componentName === "login") {
        return <Login />;
@@ -79,6 +79,7 @@ Send Custom props to Modal from Redux, and Configure Payload to Hold Object. Sen
        return <LoginRegister />;
      }
  };
+```
 
 
 ### Author
