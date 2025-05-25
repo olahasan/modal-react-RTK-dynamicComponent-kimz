@@ -1,4 +1,4 @@
-# react-reduxtoolkit-kimz-ola
+# modal-react-RTK-dynamicComponent-kimz
 
 This is a simple project to learn and practice react,redux-toolkit with react"Hooks" and Dynamic Component built with ReactJs [function-component]. 
 
