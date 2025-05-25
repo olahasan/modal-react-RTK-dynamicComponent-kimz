@@ -60,6 +60,7 @@ Otherwise, all links will open in the same tab.
  
 
 ![Screenshot](./pic5.jpg)
+![Screenshot](./pic.jpg)
 ![Screenshot](./pic3.jpg)
 ![Screenshot](./pic4.jpg)
 
