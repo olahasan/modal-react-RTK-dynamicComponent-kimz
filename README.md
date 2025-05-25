@@ -58,8 +58,8 @@ Otherwise, all links will open in the same tab.
 
  ## Screenshot
  
-![Screenshot](./pic1.ipg)
 
+![Screenshot](./pic3.jpg)
 ![Screenshot](./pic4.jpg)
 ![Screenshot](./pic5.jpg)
 
