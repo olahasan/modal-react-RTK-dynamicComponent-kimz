@@ -1,71 +1,81 @@
-<!-- //modal before seperate
-import React, { Fragment } from "react";
-import CloseSVG from "../../../assets/close.svg";
+# react-reduxtoolkit-kimz-ola
 
-import "./modal.css";
-import { useDispatch, useSelector } from "react-redux";
-import { closeModal } from "../../../store/modaSlice";
-import Login from "./../../forms/Login";
-import Register from "./../../forms/Register";
-import LoginRegister from "./../../forms/LoginRegister";
+This is a simple project to learn and practice react,redux-toolkit with react"Hooks" and Dynamic Component built with ReactJs [function-component]. 
 
-const Modal = () => {
-  const { isOpen, componentName, modalChildPosition, childrenProps } =
-    useSelector((state) => state.modal);
-  const dispatch = useDispatch();
+## Table of contents
 
-  const closeModalHandler = () => dispatch(closeModal());
+- [Overview](#overview)
+- [Features](#Features)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Links](#Links)
+- [Screenshot](#Screenshot)
+- [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#Acknowledgments)
 
-  //old way
 
-  // const componentHandler = () => {
-  //   if (componentName === "login") {
-  //     return <Login />;
-  //   } else if (componentName === "register") {
-  //     return <Register />;
-  //   } else if (componentName === "loginRegister") {
-  //     return <LoginRegister />;
-  //   }
-  // };
+## overview
+This is a simple project to learn and practice react,redux-toolkit with react"Hooks" and Dynamic Component built with ReactJs [function-component]. 
 
-  // dynamic components
+## Features
+- how to deel with useSelector-useDispatch,Dynamic Component
 
-  const componentsLookUp = {
-    login: Login,
-    register: Register,
-    loginRegister: LoginRegister,
-  };
+## Installation
+To get started with this project, follow these steps:
 
-  let renderComponent;
-  let SelectedComponent = componentsLookUp[componentName];
-  if (componentName) {
-    renderComponent = <SelectedComponent {...childrenProps} />;
-  }
+you can clone the project or download it as Zip file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/olahasan/modal-react-RTK-dynamicComponent-kimz.git
 
-  return (
-    <Fragment>
-      <div
-        className={`modal-backDrop ${isOpen ? "modal-show" : "modal-hide"}`}
-        onClick={closeModalHandler}
-      ></div>
-      <div
-        className={`modal-container ${isOpen ? "modal-show" : "modal-hide"}`}
-      >
-        <div className="modal-close">
-          <img
-            src={CloseSVG}
-            className="modal-close-img"
-            alt="close-modal"
-            onClick={closeModalHandler}
-          />
-        </div>
-        {/* <div className="modal-content">{componentHandler()}</div> */}
-        <div className={`modal-content ${modalChildPosition}`}>
-          {renderComponent}
-        </div>
-      </div>
-    </Fragment>
-  );
-};
+2. Navigate to the project directory:
+   cd <project-directory>
 
-export default Modal; -->
+3. Install the required dependencies:
+   npm install   
+
+
+## Usage
+To run the application, use the following command:
+
+npm start
+
+
+## Links
+
+If you want to open the link in a new tab, you can:
+
+- Press **Ctrl** (or **Cmd** on Mac) while clicking the link.
+- Right-click the link and select **Open link in new tab**.
+
+Otherwise, all links will open in the same tab.
+
+
+- Solution URL: [here](https://github.com/olahasan/modal-react-RTK-dynamicComponent-kimz)
+
+- Live Site URL: [here](https://react-reduxtoolkit-kimz-ola.surge.sh/) OR [here](https://react-reduxtoolkit-kimz-ola.netlify.app/)
+
+ ## Screenshot
+ 
+![Screenshot](./public/pic.png)
+![Screenshot](./public/pic1.png)
+![Screenshot](./public/pic2.png)
+![Screenshot](./public/pic3.png)
+![Screenshot](./public/pic4.png)
+![Screenshot](./public/pic5.png)
+
+## What I learned
+the main thing is how to Switch between components by Dynamic Component instead of  If/Else . 
+Send Custom props to Modal from Redux, and Configure Payload to Hold Object. Send props to children by redux.
+
+
+### Author
+
+GitHub - @olahasan
+
+### Acknowledgments
+
+I would like to thank the **[kimz codes](https://www.youtube.com/@kimzcodes)** for providing this challenge and for his support.
+
+
