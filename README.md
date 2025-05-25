@@ -81,6 +81,24 @@ Send Custom props to Modal from Redux, and Configure Payload to Hold Object. Sen
  };
 ```
 
+2- dynamic components 
+
+```
+const { isOpen, componentName, modalChildPosition, childrenProps } =
+    useSelector((state) => state.modal);
+
+  const componentsLookUp = {
+    login: Login,
+    register: Register,
+    loginRegister: LoginRegister,
+  };
+
+  let renderComponent;
+  let SelectedComponent = componentsLookUp[componentName];
+  if (componentName) {
+    renderComponent = <SelectedComponent {...childrenProps} />;
+  }
+```
 
 ### Author
 
