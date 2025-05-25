@@ -58,7 +58,7 @@ Otherwise, all links will open in the same tab.
 
  ## Screenshot
  
-![Screenshot](./pic1.png)
+![Screenshot](../pic1.png)
 ![Screenshot](./pic3.png)
 ![Screenshot](./pic4.png)
 ![Screenshot](./pic5.png)
