@@ -58,11 +58,10 @@ Otherwise, all links will open in the same tab.
 
  ## Screenshot
  
-![Screenshot](./public/pic1.png)
-![Screenshot](./public/pic2.png)
-![Screenshot](./public/pic3.png)
-![Screenshot](./public/pic4.png)
-![Screenshot](./public/pic5.png)
+![Screenshot](./pic1.png)
+![Screenshot](./pic3.png)
+![Screenshot](./pic4.png)
+![Screenshot](./pic5.png)
 
 ## What I learned
 the main thing is how to Switch between components by Dynamic Component instead of  If/Else . 
