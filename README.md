@@ -54,7 +54,7 @@ Otherwise, all links will open in the same tab.
 
 - Solution URL: [here](https://github.com/olahasan/modal-react-RTK-dynamicComponent-kimz)
 
-- Live Site URL: [here](https://react-reduxtoolkit-kimz-ola.surge.sh/) OR [here](https://react-reduxtoolkit-kimz-ola.netlify.app/)
+- Live Site URL: [here](modal-react-RTK-dynamicComponent.surge.sh)
 
  ## Screenshot
  
